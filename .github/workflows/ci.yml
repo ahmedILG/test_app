@@ -41,7 +41,7 @@ jobs:
       - run: flutter test
       - run: flutter build ios --release --no-codesign
       - uses: actions/upload-artifact@v1
-          with:
-            name: release-ios
-            path: /Users/runner/work/test_app/test_app/build/ios/iphoneos/Runner.app
+        with:
+          name: release-ios
+          path: /Users/runner/work/test_app/test_app/build/ios/iphoneos/Runner.app
 
